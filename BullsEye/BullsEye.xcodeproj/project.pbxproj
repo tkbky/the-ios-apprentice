@@ -299,6 +299,7 @@
 				50AE164C1EC895D9007085E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
