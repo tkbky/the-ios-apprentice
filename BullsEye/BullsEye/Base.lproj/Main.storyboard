@@ -47,6 +47,9 @@
                                 <rect key="frame" x="43" y="248" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start Over"/>
+                                <connections>
+                                    <action selector="startOver" destination="BYZ-38-t0r" eventType="touchUpInside" id="jni-Wr-mYk"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5d-WR-ozu">
                                 <rect key="frame" x="156" y="253" width="50" height="21"/>
@@ -105,6 +108,8 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="roundLabel" destination="dlY-R7-dhO" id="noZ-AJ-URH"/>
+                        <outlet property="scoreLabel" destination="MWO-5k-Hbj" id="YKz-ie-G8z"/>
                         <outlet property="slider" destination="Y2O-tA-kNg" id="anD-rb-7WB"/>
                         <outlet property="targetLabel" destination="m6y-VD-KZd" id="gkz-e8-neU"/>
                     </connections>
